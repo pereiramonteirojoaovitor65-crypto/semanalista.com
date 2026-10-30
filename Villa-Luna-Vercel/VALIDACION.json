@@ -1,0 +1,16 @@
+{
+  "language": "Spanish",
+  "relative_files": "passed",
+  "anchor_targets": "passed",
+  "responsive_image_files": "passed",
+  "syntax": "passed",
+  "demo_calculation_people": [
+    1,
+    2,
+    4
+  ],
+  "purchase_buttons_same_color": true,
+  "embedded_base64_images": false,
+  "live_mobile_speed_test": "not measured",
+  "connect_rate": "not measured"
+}

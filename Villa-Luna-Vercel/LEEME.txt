@@ -1,0 +1,11 @@
+SEMANA LISTA - PV OPTIMIZADA EN ESPAÑOL
+
+Publica index.html y la carpeta assets juntos, conservando sus nombres. No uses el HTML de vista previa con imágenes base64 para campañas: este paquete contiene imágenes separadas y responsivas.
+
+La página necesita un alojamiento estático con HTTPS. _headers configura caché en servicios compatibles; si tu proveedor no lo interpreta, configura esas reglas allí. Activa compresión HTTP en el alojamiento y verifica la página desde el enlace del anuncio.
+
+Carga inicial: texto y diseño ligeros; imagen principal WebP prioritaria; imágenes siguientes con carga diferida. Archivos con huella para caché. La demo incluye solo los datos que utiliza.
+
+IMPORTANTE: los botones de compra muestran una vista previa. No hay checkout, píxel, analítica ni cobro. El creador pidió mantener checkout fuera de esta entrega. No anunciar acceso comercial listo hasta configurar la compra y entrega.
+
+No se garantiza connect rate perfecto: depende también del servidor, red, redirecciones y tráfico. Mide visitas a la página y clics salientes con criterios consistentes después de publicar. Esta entrega no contiene una medición Lighthouse ni una prueba de conexión móvil real.

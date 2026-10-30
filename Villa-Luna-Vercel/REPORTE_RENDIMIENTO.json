@@ -1,0 +1,139 @@
+{
+  "language": "es",
+  "htmlBytes": 17024,
+  "cssBytes": 75932,
+  "jsBytes": 15958,
+  "jsMinifier": "none",
+  "previousImageBytes": 6382684,
+  "optimizedImageBytes": 1077998,
+  "hero768Bytes": 116430,
+  "totalPayloadBytes": 1186912,
+  "images": {
+    "assets/resultado-final.png": {
+      "width": 1254,
+      "height": 1254,
+      "variants": [
+        {
+          "width": 480,
+          "src": "assets/resultado-final-480.bb3cfd2136.webp",
+          "bytes": 53872
+        },
+        {
+          "width": 768,
+          "src": "assets/resultado-final-768.670463e617.webp",
+          "bytes": 116430
+        },
+        {
+          "width": 1024,
+          "src": "assets/resultado-final-1024.26a3bdb8ed.webp",
+          "bytes": 181998
+        }
+      ]
+    },
+    "assets/pollo.webp": {
+      "width": 667,
+      "height": 1000,
+      "variants": [
+        {
+          "width": 480,
+          "src": "assets/pollo-480.28d80a9c52.webp",
+          "bytes": 48958
+        }
+      ]
+    },
+    "assets/garbanzos.webp": {
+      "width": 667,
+      "height": 1000,
+      "variants": [
+        {
+          "width": 480,
+          "src": "assets/garbanzos-480.418a838187.webp",
+          "bytes": 39754
+        }
+      ]
+    },
+    "assets/pasta.webp": {
+      "width": 900,
+      "height": 600,
+      "variants": [
+        {
+          "width": 480,
+          "src": "assets/pasta-480.62784a3837.webp",
+          "bytes": 19496
+        },
+        {
+          "width": 768,
+          "src": "assets/pasta-768.2659334780.webp",
+          "bytes": 36210
+        }
+      ]
+    },
+    "assets/lentejas.webp": {
+      "width": 900,
+      "height": 576,
+      "variants": [
+        {
+          "width": 480,
+          "src": "assets/lentejas-480.a0a8f0ba28.webp",
+          "bytes": 17158
+        },
+        {
+          "width": 768,
+          "src": "assets/lentejas-768.ab57cc9191.webp",
+          "bytes": 32750
+        }
+      ]
+    },
+    "assets/combinaciones.webp": {
+      "width": 900,
+      "height": 600,
+      "variants": [
+        {
+          "width": 480,
+          "src": "assets/combinaciones-480.1c70ee2bb3.webp",
+          "bytes": 21996
+        },
+        {
+          "width": 768,
+          "src": "assets/combinaciones-768.29b139d5ed.webp",
+          "bytes": 42112
+        }
+      ]
+    },
+    "assets/coleccion-comidas.png": {
+      "width": 1536,
+      "height": 1024,
+      "variants": [
+        {
+          "width": 480,
+          "src": "assets/coleccion-comidas-480.ebff68dd33.webp",
+          "bytes": 51688
+        },
+        {
+          "width": 768,
+          "src": "assets/coleccion-comidas-768.761c8c4c73.webp",
+          "bytes": 116952
+        },
+        {
+          "width": 1024,
+          "src": "assets/coleccion-comidas-1024.1ee40eb1c4.webp",
+          "bytes": 189662
+        }
+      ]
+    },
+    "assets/pagina-3.png": {
+      "width": 708,
+      "height": 1000,
+      "variants": [
+        {
+          "width": 708,
+          "src": "assets/pagina-3-708.a7be1220c8.webp",
+          "bytes": 108962
+        }
+      ]
+    }
+  },
+  "network": "No external libraries, fonts or APIs required",
+  "validation": "Static checks only; no mobile browser or live connect-rate measurement",
+  "checkout": "Preview only; no checkout configured"
+}
