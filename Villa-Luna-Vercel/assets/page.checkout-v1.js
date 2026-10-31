@@ -124,7 +124,7 @@ updateGalleryControl();
  function campaignLink(link){
   const url=new URL(link.href);
   for(const [key,value] of new URLSearchParams(location.search)){
-   if(allowed.test(key)&&value.length<=2048)url.searchParams.set(key,value);
+   if(allowed.test(key)&&value.length<=2048&&!url.searchParams.has(key))url.searchParams.set(key,value);
   }
   link.href=url.toString();
  }
