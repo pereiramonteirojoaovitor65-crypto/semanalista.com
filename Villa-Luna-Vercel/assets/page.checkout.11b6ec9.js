@@ -118,6 +118,14 @@ setInterval(()=>{
 },3600);
 updateGalleryControl();
 
+// Persist Meta's real click identifier as the first-party _fbc cookie for server-side purchase matching.
+(function(){
+ const clickId=new URLSearchParams(location.search).get('fbclid');
+ if(!clickId||clickId.length>2048||document.cookie.split('; ').some(cookie=>cookie.startsWith('_fbc=')))return;
+ const fbc='fb.1.'+Date.now()+'.'+clickId;
+ document.cookie='_fbc='+encodeURIComponent(fbc)+'; Path=/; Max-Age=7776000; SameSite=Lax; Secure';
+})();
+
 // Carry campaign attribution to the selected Hotmart offer.
 (function(){
  const allowed=/^(utm_[a-z0-9_]+|src|sck|fbclid|gclid|ttclid|msclkid|xcod|sid|subid|sub_id)$/i;
