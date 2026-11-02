@@ -129,7 +129,14 @@ updateGalleryControl();
   link.href=url.toString();
  }
  document.querySelectorAll('a[data-plan]').forEach(link=>{
-  campaignLink(link);
-  link.addEventListener('click',()=>campaignLink(link));
+  function trackPlan(link){
+   const url=new URL(link.href);
+   const plan=(link.dataset.plan||'').toLocaleLowerCase('es');
+   if(plan)url.searchParams.set('utm_plan',plan);
+   link.href=url.toString();
+   campaignLink(link);
+  }
+  trackPlan(link);
+  link.addEventListener('click',()=>trackPlan(link));
  });
 })();
